@@ -1,6 +1,17 @@
 // Navigation code here
 
 .nav-header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 99vw;
+    opacity: .75;
+    &:hover {
+        opacity: 1;
+        filter: alpha(opacity=50);
+    }
+    
+    
     @media @phone {
         width: 100vw;
         margin: auto;
@@ -12,6 +23,7 @@
         background: @nav-bg;
         height: 100%;
         width: 100%;
+        
         
     } // end of .navigation
     h1 {

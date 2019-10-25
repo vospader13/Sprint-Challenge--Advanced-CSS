@@ -182,11 +182,20 @@ p {
   margin: 0 auto;
 }
 .nav-header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 99vw;
+  opacity: 0.75;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
   background: #F6F6F6;
+}
+.nav-header:hover {
+  opacity: 1;
+  filter: alpha(opacity=50);
 }
 @media ( max-width: 500px ) {
   .nav-header {
@@ -241,6 +250,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 140px;
+}
+@media ( max-width: 500px ) {
+  .home {
+    margin-top: 120px;
+  }
 }
 .home .intro h2 {
   padding: 15px;
