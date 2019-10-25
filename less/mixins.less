@@ -9,30 +9,42 @@
  }
 
 //trying animation code at top
-.animated {
+// .animated {
 
-    &.bounce {
-        #a.animated();
-        #a.rubberBand();
+//     &.bounce {
+//         #a.animated();
+//         #a.rubberBand();
   
-        &.infinite {
-            #a.iterate(infinite);
-            }
-        }
-    }
+//         &.infinite {
+//             #a.iterate(infinite);
+//             }
+//         }
+//     }
 
 //  .btn-animation {
-    #a.keyframes(
-        rubberBand; {
-            from { #a._transform(scale3d( 1,    1,    1 )); }
-            30%  { #a._transform(scale3d( 1.25, 0.75, 1 )); }
-            40%  { #a._transform(scale3d( 0.75, 1.25, 1 )); }
-            50%  { #a._transform(scale3d( 1.15, 0.85, 1 )); }
-            65%  { #a._transform(scale3d( 0.95, 1.05, 1 )); }
-            75%  { #a._transform(scale3d( 1.05, 0.95, 1 )); }
-            to   { #a._transform(scale3d( 1,    1,    1 )); }
-        }
-    );
+//     #a.keyframes(
+//         rubberBand; {
+//             from { #a._transform(scale3d( 1,    1,    1 )); }
+//             30%  { #a._transform(scale3d( 1.25, 0.75, 1 )); }
+//             40%  { #a._transform(scale3d( 0.75, 1.25, 1 )); }
+//             50%  { #a._transform(scale3d( 1.15, 0.85, 1 )); }
+//             65%  { #a._transform(scale3d( 0.95, 1.05, 1 )); }
+//             75%  { #a._transform(scale3d( 1.05, 0.95, 1 )); }
+//             to   { #a._transform(scale3d( 1,    1,    1 )); }
+//         }
+//     );
 //  }
 
 
+
+.outside {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.inside {
+    display: flex;
+    margin: auto;
+    font-size: 1rem;
+}
