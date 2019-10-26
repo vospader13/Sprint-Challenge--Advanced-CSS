@@ -241,6 +241,12 @@ p {
   padding-bottom: 15px;
   margin: 0% 2%;
 }
+@media ( max-width: 500px ) {
+  .nav-header a {
+    justify-content: center;
+    font-size: 1.6rem;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -265,10 +271,19 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
+.home .main-header-img {
+  width: 95%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+.home .main-header-img:hover {
+  border-radius: 100px;
+}
 @media ( max-width: 500px ) {
   .home .main-header-img {
-    width: 95vw;
-    margin: 0% 2%;
+    width: 94vw;
+    margin: 0% 1%;
   }
 }
 .home .space-images {
@@ -357,6 +372,7 @@ footer {
 .home .walk .walk-text button:hover {
   background-color: aqua;
   color: black;
+  border-radius: 100px;
 }
 .home .walk .walk-img {
   width: 46%;

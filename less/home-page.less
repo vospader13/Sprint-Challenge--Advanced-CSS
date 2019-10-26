@@ -18,11 +18,20 @@
     }
   
   }
-  .main-header-img {      
-      @media @phone {
-        width: 95vw;
+  .main-header-img {   
+      
+      width: 95%;
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      height: 100%;
 
-        margin: 0% 2%;
+      &:hover {
+        border-radius: 100px;
+      }
+
+    @media @phone {
+      width: 94vw;
+      margin: 0% 1%;
       }
     
   }
@@ -108,8 +117,8 @@
         }
 
        &:hover {
-         background-color: @alt-bg-color;
-         color: black;
+        .bg-colors (@alt-bg-color, black);
+        border-radius: 100px;
         
        }
       }
