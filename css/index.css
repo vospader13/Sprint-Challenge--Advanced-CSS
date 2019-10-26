@@ -370,8 +370,6 @@ footer {
   }
 }
 .home .walk .walk-text button:hover {
-  background-color: aqua;
-  color: black;
   border-radius: 100px;
 }
 .home .walk .walk-img {
